@@ -70,13 +70,21 @@ nav h1 a {
   letter-spacing: 10px;
   text-transform: uppercase;
 }
-#breadcrumb {
+/* #breadcrumb {
     padding: 10px 40px 16px;
     list-style: none;
     background-color: #eee;
     font-size: 17px;
     margin: 0;
     width: calc(50% - 80px);
+} */
+#breadcrumb {
+  padding: 10px 40px 16px;
+  list-style: none;
+  background-color: #eee;
+  font-size: 17px;
+  margin: 0;
+  max-width: 100%;
 }
 
 /* Display list items side by side */
@@ -195,13 +203,21 @@ nav h1 a {
   width: 100%;
   z-index: 1000;
 }
-.inside #map-container {
+/* .inside #map-container {
   background: blue none repeat scroll 0 0;
   height: 87%;
   position: fixed;
   right: 0;
   top: 80px;
   width: 50%;
+} */
+.inside #map-container {
+  background: blue none repeat scroll 0 0;
+  height: 470px;
+  position: static;
+  /* right: 0; */
+  top: 80px;
+  width: 100%;
 }
 .inside #map {
   background-color: #ccc;
@@ -210,7 +226,7 @@ nav h1 a {
 }
 .inside #footer {
   bottom: 0;
-  position: fixed;
+  position: relative;
   width: 100%;
 }
 #restaurant-name {
@@ -223,8 +239,11 @@ nav h1 a {
   text-transform: uppercase;
   line-height: 1.1;
 }
-#restaurant-img {
+/* #restaurant-img {
 	width: 90%;
+} */
+#restaurant-img {
+	width: 100%;
 }
 #restaurant-address {
   font-size: 12pt;
@@ -240,16 +259,26 @@ nav h1 a {
   padding: 2px 0;
   text-align: center;
   text-transform: uppercase;
-	width: 90%;
+  /* width: 90%; */
+  width: 100%;
 }
-#restaurant-container, #reviews-container {
+/* #restaurant-container, #reviews-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
   width: 50%;
+} */
+#restaurant-container, #reviews-container {
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #fff;
+  padding: 5px 5px;
+  width: 100%;
 }
-#reviews-container {
+/* #reviews-container {
   padding: 30px 40px 80px;
+} */
+#reviews-container {
+  
 }
 #reviews-container h2 {
   color: #f58500;
@@ -267,11 +296,12 @@ nav h1 a {
     border: 2px solid #f3f3f3;
   display: block;
   list-style-type: none;
-  margin: 0 0 30px;
+  /* margin: 0 0 30px; */
   overflow: hidden;
-  padding: 0 20px 20px;
+  /* padding: 0 20px 20px; */
   position: relative;
-  width: 85%;
+  /* width: 85%; */
+  width: 100%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
