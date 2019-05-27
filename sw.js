@@ -1,4 +1,4 @@
-const currentCache = "portfolio-cache-v1";
+const currentCache = "restaurant-cache-v1";
 const itemsToCache = [
   'css/styles.css',
   'data/restaurants.json',
