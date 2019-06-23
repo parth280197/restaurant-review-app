@@ -1,4 +1,4 @@
-# Mobile Web Specialist Certification Course
+# Restaurant review app
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
 
