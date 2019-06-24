@@ -1,11 +1,11 @@
 # Restaurant review app
 ---
 ## Technologies
-   1.HTML
-   2.CSS
-   3.JS
-   4.service worker
-   5.Leaflet.js and Mapbox
+   1. HTML
+   2. CSS
+   3. JS
+   4. Service worker
+   5. Leaflet.js and Mapbox
    
 ## Specification:
    1.Progressive Work App.Works fine without Internet.
